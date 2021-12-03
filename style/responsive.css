@@ -1,0 +1,106 @@
+@media screen and (max-width:780px) {
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .botao{
+        margin-top: 7px;
+        width: 190px;
+    }
+    .app-main{
+        background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(/img/celular.jpeg);
+        background-size: cover;
+        width: 100%;
+        background-repeat: no-repeat;
+        text-align: center;
+        height: 390px;
+        margin: 0;
+    }
+    .app p{
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+    .botao2{
+        padding: 12px;
+        font-size: 20px;
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (min-width:1000px){
+    .desc{
+        width: 50%;
+    }
+    
+}
+
+@media screen and (max-width:411px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .botao{
+        margin-top: 8px;
+        width: 200px;
+    }
+     .carrosel-moments h2{
+        font-size: 19px;
+    }
+    .app-main{
+        background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(/img/celular.jpeg);
+        background-size: contain;
+        width: 100%;
+        background-repeat: no-repeat;
+        text-align: center;
+        height: 200px;
+        margin: 0;
+    }
+    .app p{
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+    .botao2{
+        padding: 12px;
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    
+    
+}
+@media screen and (max-width:450px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .botao{
+        margin-top: 8px;
+        width: 200px;
+    }
+    .conteudo-main{
+        background-size: auto;
+    }
+    .app-main{
+        background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(/img/celular.jpeg);
+        background-size: cover;
+        width: 100%;
+        background-repeat: no-repeat;
+        margin: 0;
+        text-align: center;
+        height: 193px;
+    }
+    .app p{
+        font-size: 19px;
+    }
+    .app-main h2{
+        text-align: center;
+        margin-left: 60%;
+        margin-bottom: 45px;
+    }
+    .botao2{
+        font-size: 10px;
+    }
+    
+}

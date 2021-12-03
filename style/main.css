@@ -1,0 +1,220 @@
+:root{
+    --preto: #141414;
+    --roxo-azul:#eeeeee;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Outfit:wght@600&family=Roboto+Slab:wght@700&family=Roboto:wght@100&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+/** INICIO */
+body{
+    background-color:var(--preto);
+    color: white;
+    font-family:'Arial', Helvetica, sans-serif;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 15px;
+}
+
+.logo{
+    color:rgba(255, 3, 3, 0.693);
+    font-family: 'Impact';
+    font-size: 45px;
+    margin-left: 4px;
+    text-shadow: 0 2px 1px rgba(0, 0, 0, 0.693), 
+      -1px 3px 1px rgba(0, 0, 0, 0.693), 
+      -1px 1px 1px rgba(255, 3, 3, 0.693);
+}
+
+header nav a{
+    text-decoration: none;
+    color: whitesmoke;
+    margin-right: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19px
+}
+
+header nav a:hover{
+    color: rgba(255, 3, 3, 0.693);
+
+}
+
+/** CONTEUDO PRINCIPAL */
+.conteudo-main{
+    font-size: 15px;
+    /* img mais escura */
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(/img/palmeiras.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    background-position: 0px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.conteudo-main .desc{
+    margin-top: 7px;
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.conteudo-main .titulo{
+    margin-top: 20%;
+    font-size: 38px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.70);
+    border: none;
+    color: white;
+
+    padding: 12px 28px;
+    margin-right: 15px;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    cursor: pointer;
+    transition: 1s ease all;
+    font-weight: 500;
+    border-radius: 15px;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+.botao i{
+    margin-right: 7px;
+}
+.container{
+    margin-left: 15px;
+}
+
+.conteudo-main .container{
+    width: 75%;
+}
+.box-item{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+.carrosel-moments{
+    margin: 6px 15px;
+}
+.carrosel-moments h2{
+    margin-top: 10px;
+    font-family: 'Arial', Helvetica, sans-serif;
+    margin-bottom: 3px;
+}
+.item{
+    cursor: pointer;
+}
+
+.app{
+    margin-top: 50px;
+}
+.app p{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 5px;
+    font-family: Arial Black, Helvetica, sans-serif;
+}
+
+.app-main{
+    font-size: 20px;
+    /* img mais escura */
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(/img/celular.jpeg);
+    background-repeat: no-repeat;
+    padding: 0;
+    margin-left: 29%;
+    margin-right: 29%;
+    background-size:600px;
+    border-radius: 30px;
+    height: 300px;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.app-main h2{
+    margin-left: 75%;
+    color:rgba(255, 3, 3, 0.693);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 160px;
+    text-shadow: 0 2px 1px rgba(0, 0, 0, 0.693), 
+      -1px 3px 1px rgba(0, 0, 0, 0.693), 
+      -1px 1px 1px rgba(255, 3, 3, 0.693);
+}
+.botao2{
+    padding: 12px;
+    background-color: rgba(0,0,0,.50);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 28px;
+    margin-right: 10px;
+    font-size: 11px;
+    font-family: 'Open Sans', sans-serif;
+
+    cursor: pointer;
+    transition: 1s ease all;
+}
+.botao2:hover{
+    background-color: white;
+    color: black;
+}
+.botao2 i{
+    font-weight: 400;
+    font-size: 14px;
+    margin-right: 5px;
+    display: inline;
+}
+
+.end-line {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    border-top: 0.5px solid white;
+    border-bottom: 0.5px solid white;
+    margin-bottom: 50px;
+}
+.end-line i{
+    font-size: 40px;
+    padding: 5px;
+    color: white;
+}
+
+footer{
+    text-align: center;
+}
+.logo-end{
+    font-weight: 900;
+    color:rgba(255, 3, 3, 0.693);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 0 2px 1px rgba(0, 0, 0, 0.693), 
+    -1px 3px 1px rgba(0, 0, 0, 0.693), 
+    -1px 1px 1px rgba(255, 3, 3, 0.693);
+}
+footer span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    
+}
+
+
+
+
